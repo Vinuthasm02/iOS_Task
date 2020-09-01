@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B003BE24FAA9AC00346701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003BD24FAA9AC00346701 /* AppDelegate.swift */; };
+		58B003C024FAA9AC00346701 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003BF24FAA9AC00346701 /* SceneDelegate.swift */; };
+		58B003C524FAA9AC00346701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B003C324FAA9AC00346701 /* Main.storyboard */; };
+		58B003C724FAA9AD00346701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B003C624FAA9AD00346701 /* Assets.xcassets */; };
+		58B003CA24FAA9AD00346701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B003C824FAA9AD00346701 /* LaunchScreen.storyboard */; };
+		58B003D524FAA9AE00346701 /* Pyramidion_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003D424FAA9AE00346701 /* Pyramidion_TaskTests.swift */; };
+		58B003E024FAA9AE00346701 /* Pyramidion_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003DF24FAA9AE00346701 /* Pyramidion_TaskUITests.swift */; };
+		58B003F724FAB2B400346701 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003F624FAB2B400346701 /* LoginViewController.swift */; };
+		58B003F924FAB63D00346701 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003F824FAB63D00346701 /* LoginViewModel.swift */; };
+		58B003FB24FAB9E600346701 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003FA24FAB9E600346701 /* SwitchViewController.swift */; };
+		58B003FF24FB826D00346701 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B003FE24FB826C00346701 /* SwitchTableViewCell.swift */; };
+		58B0040324FB871700346701 /* SwitchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0040224FB871700346701 /* SwitchViewModel.swift */; };
+		58B0040524FDFA3900346701 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0040424FDFA3900346701 /* ThirdViewController.swift */; };
+		58B0040924FE06D000346701 /* ThirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0040824FE06D000346701 /* ThirdViewModel.swift */; };
+		58B0040B24FE0AB000346701 /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0040A24FE0AB000346701 /* DropDownTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B003D124FAA9AE00346701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B003B224FAA9AC00346701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B003B924FAA9AC00346701;
+			remoteInfo = Pyramidion_Task;
+		};
+		58B003DC24FAA9AE00346701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B003B224FAA9AC00346701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B003B924FAA9AC00346701;
+			remoteInfo = Pyramidion_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B003BA24FAA9AC00346701 /* Pyramidion_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pyramidion_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B003BD24FAA9AC00346701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B003BF24FAA9AC00346701 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58B003C424FAA9AC00346701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B003C624FAA9AD00346701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B003C924FAA9AD00346701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B003CB24FAA9AD00346701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B003D024FAA9AE00346701 /* Pyramidion_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pyramidion_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B003D424FAA9AE00346701 /* Pyramidion_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramidion_TaskTests.swift; sourceTree = "<group>"; };
+		58B003D624FAA9AE00346701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B003DB24FAA9AE00346701 /* Pyramidion_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pyramidion_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B003DF24FAA9AE00346701 /* Pyramidion_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pyramidion_TaskUITests.swift; sourceTree = "<group>"; };
+		58B003E124FAA9AE00346701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B003F624FAB2B400346701 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		58B003F824FAB63D00346701 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		58B003FA24FAB9E600346701 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		58B003FE24FB826C00346701 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		58B0040224FB871700346701 /* SwitchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewModel.swift; sourceTree = "<group>"; };
+		58B0040424FDFA3900346701 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		58B0040824FE06D000346701 /* ThirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewModel.swift; sourceTree = "<group>"; };
+		58B0040A24FE0AB000346701 /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B003B724FAA9AC00346701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003CD24FAA9AE00346701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003D824FAA9AE00346701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B003B124FAA9AC00346701 = {
+			isa = PBXGroup;
+			children = (
+				58B003BC24FAA9AC00346701 /* Pyramidion_Task */,
+				58B003D324FAA9AE00346701 /* Pyramidion_TaskTests */,
+				58B003DE24FAA9AE00346701 /* Pyramidion_TaskUITests */,
+				58B003BB24FAA9AC00346701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B003BB24FAA9AC00346701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B003BA24FAA9AC00346701 /* Pyramidion_Task.app */,
+				58B003D024FAA9AE00346701 /* Pyramidion_TaskTests.xctest */,
+				58B003DB24FAA9AE00346701 /* Pyramidion_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B003BC24FAA9AC00346701 /* Pyramidion_Task */ = {
+			isa = PBXGroup;
+			children = (
+				58B003EE24FAAB3300346701 /* LoginView */,
+				58B003C324FAA9AC00346701 /* Main.storyboard */,
+				58B003BD24FAA9AC00346701 /* AppDelegate.swift */,
+				58B003BF24FAA9AC00346701 /* SceneDelegate.swift */,
+				58B003C624FAA9AD00346701 /* Assets.xcassets */,
+				58B003C824FAA9AD00346701 /* LaunchScreen.storyboard */,
+				58B003CB24FAA9AD00346701 /* Info.plist */,
+			);
+			path = Pyramidion_Task;
+			sourceTree = "<group>";
+		};
+		58B003D324FAA9AE00346701 /* Pyramidion_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B003D424FAA9AE00346701 /* Pyramidion_TaskTests.swift */,
+				58B003D624FAA9AE00346701 /* Info.plist */,
+			);
+			path = Pyramidion_TaskTests;
+			sourceTree = "<group>";
+		};
+		58B003DE24FAA9AE00346701 /* Pyramidion_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B003DF24FAA9AE00346701 /* Pyramidion_TaskUITests.swift */,
+				58B003E124FAA9AE00346701 /* Info.plist */,
+			);
+			path = Pyramidion_TaskUITests;
+			sourceTree = "<group>";
+		};
+		58B003EE24FAAB3300346701 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				58B003EF24FAAB6900346701 /* Model */,
+				58B003F024FAAB7300346701 /* View */,
+				58B003F124FAABAF00346701 /* ViewModel */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		58B003EF24FAAB6900346701 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58B003F024FAAB7300346701 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58B003F624FAB2B400346701 /* LoginViewController.swift */,
+				58B003FA24FAB9E600346701 /* SwitchViewController.swift */,
+				58B003FE24FB826C00346701 /* SwitchTableViewCell.swift */,
+				58B0040424FDFA3900346701 /* ThirdViewController.swift */,
+				58B0040A24FE0AB000346701 /* DropDownTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58B003F124FAABAF00346701 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				58B003F824FAB63D00346701 /* LoginViewModel.swift */,
+				58B0040224FB871700346701 /* SwitchViewModel.swift */,
+				58B0040824FE06D000346701 /* ThirdViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B003B924FAA9AC00346701 /* Pyramidion_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B003E424FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_Task" */;
+			buildPhases = (
+				58B003B624FAA9AC00346701 /* Sources */,
+				58B003B724FAA9AC00346701 /* Frameworks */,
+				58B003B824FAA9AC00346701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pyramidion_Task;
+			productName = Pyramidion_Task;
+			productReference = 58B003BA24FAA9AC00346701 /* Pyramidion_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B003CF24FAA9AE00346701 /* Pyramidion_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B003E724FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_TaskTests" */;
+			buildPhases = (
+				58B003CC24FAA9AE00346701 /* Sources */,
+				58B003CD24FAA9AE00346701 /* Frameworks */,
+				58B003CE24FAA9AE00346701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B003D224FAA9AE00346701 /* PBXTargetDependency */,
+			);
+			name = Pyramidion_TaskTests;
+			productName = Pyramidion_TaskTests;
+			productReference = 58B003D024FAA9AE00346701 /* Pyramidion_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B003DA24FAA9AE00346701 /* Pyramidion_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B003EA24FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_TaskUITests" */;
+			buildPhases = (
+				58B003D724FAA9AE00346701 /* Sources */,
+				58B003D824FAA9AE00346701 /* Frameworks */,
+				58B003D924FAA9AE00346701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B003DD24FAA9AE00346701 /* PBXTargetDependency */,
+			);
+			name = Pyramidion_TaskUITests;
+			productName = Pyramidion_TaskUITests;
+			productReference = 58B003DB24FAA9AE00346701 /* Pyramidion_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B003B224FAA9AC00346701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Pyramidion;
+				TargetAttributes = {
+					58B003B924FAA9AC00346701 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					58B003CF24FAA9AE00346701 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 58B003B924FAA9AC00346701;
+					};
+					58B003DA24FAA9AE00346701 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 58B003B924FAA9AC00346701;
+					};
+				};
+			};
+			buildConfigurationList = 58B003B524FAA9AC00346701 /* Build configuration list for PBXProject "Pyramidion_Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B003B124FAA9AC00346701;
+			productRefGroup = 58B003BB24FAA9AC00346701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B003B924FAA9AC00346701 /* Pyramidion_Task */,
+				58B003CF24FAA9AE00346701 /* Pyramidion_TaskTests */,
+				58B003DA24FAA9AE00346701 /* Pyramidion_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B003B824FAA9AC00346701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B003CA24FAA9AD00346701 /* LaunchScreen.storyboard in Resources */,
+				58B003C724FAA9AD00346701 /* Assets.xcassets in Resources */,
+				58B003C524FAA9AC00346701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003CE24FAA9AE00346701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003D924FAA9AE00346701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B003B624FAA9AC00346701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B003F924FAB63D00346701 /* LoginViewModel.swift in Sources */,
+				58B003F724FAB2B400346701 /* LoginViewController.swift in Sources */,
+				58B0040324FB871700346701 /* SwitchViewModel.swift in Sources */,
+				58B003FB24FAB9E600346701 /* SwitchViewController.swift in Sources */,
+				58B003BE24FAA9AC00346701 /* AppDelegate.swift in Sources */,
+				58B003C024FAA9AC00346701 /* SceneDelegate.swift in Sources */,
+				58B0040B24FE0AB000346701 /* DropDownTableViewCell.swift in Sources */,
+				58B0040524FDFA3900346701 /* ThirdViewController.swift in Sources */,
+				58B0040924FE06D000346701 /* ThirdViewModel.swift in Sources */,
+				58B003FF24FB826D00346701 /* SwitchTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003CC24FAA9AE00346701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B003D524FAA9AE00346701 /* Pyramidion_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B003D724FAA9AE00346701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B003E024FAA9AE00346701 /* Pyramidion_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B003D224FAA9AE00346701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B003B924FAA9AC00346701 /* Pyramidion_Task */;
+			targetProxy = 58B003D124FAA9AE00346701 /* PBXContainerItemProxy */;
+		};
+		58B003DD24FAA9AE00346701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B003B924FAA9AC00346701 /* Pyramidion_Task */;
+			targetProxy = 58B003DC24FAA9AE00346701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58B003C324FAA9AC00346701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B003C424FAA9AC00346701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B003C824FAA9AD00346701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B003C924FAA9AD00346701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B003E224FAA9AE00346701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B003E324FAA9AE00346701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B003E524FAA9AE00346701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B003E624FAA9AE00346701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58B003E824FAA9AE00346701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_TaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pyramidion_Task.app/Pyramidion_Task";
+			};
+			name = Debug;
+		};
+		58B003E924FAA9AE00346701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_TaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pyramidion_Task.app/Pyramidion_Task";
+			};
+			name = Release;
+		};
+		58B003EB24FAA9AE00346701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pyramidion_Task;
+			};
+			name = Debug;
+		};
+		58B003EC24FAA9AE00346701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pyramidion_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pyramidion-Task.Pyramidion-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pyramidion_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B003B524FAA9AC00346701 /* Build configuration list for PBXProject "Pyramidion_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B003E224FAA9AE00346701 /* Debug */,
+				58B003E324FAA9AE00346701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B003E424FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B003E524FAA9AE00346701 /* Debug */,
+				58B003E624FAA9AE00346701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B003E724FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B003E824FAA9AE00346701 /* Debug */,
+				58B003E924FAA9AE00346701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B003EA24FAA9AE00346701 /* Build configuration list for PBXNativeTarget "Pyramidion_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B003EB24FAA9AE00346701 /* Debug */,
+				58B003EC24FAA9AE00346701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B003B224FAA9AC00346701 /* Project object */;
+}
